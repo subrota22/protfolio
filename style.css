@@ -54,6 +54,7 @@ font-family: 'Dancing Script', cursive;
 }
 
 .rightMainDiv{
+    margin-top: 12rem;
     width: 40%;
     height: 35rem;
     background-image: url("images/dream-bg.png");
@@ -83,7 +84,7 @@ font-family: 'Dancing Script', cursive;
     box-shadow:  0 2rem 5rem;
     border-left: 0.3rem solid orangered;
     border-radius: 3rem;
-    margin-left: 4rem;
+    margin-left: 15rem;
     height: 35rem;
     height: auto;
 }
