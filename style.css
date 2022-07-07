@@ -1,0 +1,123 @@
+body{
+    font-family: 'Gentium Book Plus', serif;  
+}
+.HeaderDiv{
+    width: 100%;
+    display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    margin: -1rem;
+}
+.leftHeader{
+    margin-top: 6rem;
+    width: 60%;
+    height: 35rem;
+    font-size: 2rem;
+    color: black;
+    padding: 2rem;
+}
+
+.rightHeader{
+    width: 40%;
+    height: 35rem;
+}
+.headImage{
+    height: 40rem;
+    width: 40rem;
+    margin-top: 6rem;
+}
+.button{
+background-image: linear-gradient(to right , blue , lime);
+width: 35rem;
+padding: 2rem;
+font-size: 2rem;
+color: white;
+border: none;
+border-radius: 2rem;
+font-family: 'Dancing Script', cursive;
+}
+
+
+.mainDiv{
+    width: 100%;
+    display: flex;
+    margin-top: 8rem;
+}
+.leftMainDiv{
+    margin-top: 6rem;
+    width: 60%;
+    height: 35rem;
+    font-size: 2rem;
+    color: black;
+    padding: 2rem;
+}
+
+.rightMainDiv{
+    width: 40%;
+    height: 35rem;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+
+
+
+.ExperienceDiv{
+    width: 100%;
+    display: flex;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    margin-left: -2rem;
+    height: auto;
+}
+.experienceLeft{
+    margin-top: 6rem;
+    width: 40%;
+    font-size: 2rem;
+    color: black;
+    padding: 4rem;
+    box-shadow:  0 2rem 5rem;
+    border-left: 0.3rem solid orangered;
+    border-radius: 3rem;
+    margin-left: 4rem;
+    height: 35rem;
+    height: auto;
+}
+
+.experienceRight{
+    width: 40%;
+    height: auto;
+    font-size: 2rem;
+    color: black;
+    padding: 4rem;
+    box-shadow:  0 2rem 5rem;
+    border-left: 0.3rem solid blue;
+    border-radius: 3rem;
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+
+
+html{font-size: 62.5%;}
+@media all and(max-width:1310px) {
+    html{font-size: 62.5%;}  
+}
+@media all and(max-width:1200px) {
+    html{font-size: 55.5%;}  
+}
+@media all and(max-width:1010px) {
+    html{font-size: 48.5%;}  
+}
+@media all and(max-width:910px) {
+    html{font-size: 38.5%;}  
+}
+@media all and(max-width:700px) {
+    html{font-size: 28.5%;}  
+}
+@media all and(max-width:500px) {
+    html{font-size: 24.5%;}  
+}
