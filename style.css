@@ -105,18 +105,18 @@ font-family: 'Dancing Script', cursive;
 
 html{font-size: 62.5%;}
 
-@media all and(max-width:1200px) {
+@media only screen and(max-width:1200px) {
     html{font-size: 62.5%;}  
 }
-@media all and(max-width:1000px) {
+@media only screen and(max-width:1000px) {
     html{font-size: 55.5%;}  
 }
-@media all and(max-width:900px) {
+@media only screen and(max-width:900px) {
     html{font-size: 48.5%;}  
 }
-@media all and(max-width:700px) {
+@media only screen and(max-width:700px) {
     html{font-size: 38.5%;}  
 }
-@media all and(max-width:500px) {
+@media only screen and(max-width:500px) {
     html{font-size: 28.5%;}  
 }
