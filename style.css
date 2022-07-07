@@ -105,7 +105,7 @@ font-family: 'Dancing Script', cursive;
 
 html{font-size: 62.5%;}
 
-@media all and(max-width:1200) {
+@media all and(max-width:1200px) {
     html{font-size: 62.5%;}  
 }
 @media all and(max-width:1000px) {
