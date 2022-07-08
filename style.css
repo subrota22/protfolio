@@ -1,4 +1,17 @@
-*{box-sizing: border-box; margin: 0%; padding: 0%;}
+
+
+html{font-size: 62.5%;}
+
+@media screen and(max-width:1200px) {html{font-size: 60%;}}
+
+@media screen and(max-width:1000px) {html{font-size: 50%;}}
+
+@media screen and(max-width:900px) {html{font-size: 40%;} body{background-color: red;}}
+
+@media screen and(max-width:700px) {html{font-size: 30%;}}
+
+
+
 body{
     font-family: 'Gentium Book Plus', serif;  
 }
@@ -52,7 +65,7 @@ font-family: 'Dancing Script', cursive;
     color: black;
     padding: 2rem;
 }
-
+button:hover{cursor: pointer;}
 .rightMainDiv{
     margin-top: 12rem;
     width: 40%;
@@ -103,21 +116,3 @@ font-family: 'Dancing Script', cursive;
 }
 
 
-
-html{font-size: 62.5%;}
-
-@media only screen and(max-width:1200px) {
-    html{font-size: 62.5%;}  
-}
-@media only screen and(max-width:1000px) {
-    html{font-size: 55.5%;}  
-}
-@media only screen and(max-width:900px) {
-    html{font-size: 48.5%;}  
-}
-@media only screen and(max-width:700px) {
-    html{font-size: 38.5%;}  
-}
-@media only screen and(max-width:500px) {
-    html{font-size: 28.5%;}  
-}
